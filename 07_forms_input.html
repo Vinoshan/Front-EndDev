@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="file.php">
+      <div>
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" placeholder="Enter Name"/>
+      </div>
+      <div>
+        <label for="email" >Email</label><br/>
+        <input type="email" name="email" id="email" placeholder="Enter Email"/>
+      </div>
+      <div>
+        <label for="message">Message</label><br />
+        <textarea name="message" id="message" cols="50" rows="5"></textarea>
+      </div>
+      <div>
+        <label for="sex">Sex</label>
+        <select name="sex" id="sex">
+          <option value="M">M</option>
+          <option value="F" selected>F</option>
+          <option value="O">O</option>
+        </select>
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+      </div>
+      <div>
+        <label for="birthdate">Birthdate</label>
+        <input type="date" name ="birthdate" id="birthdate">
+      </div>
+      <div>
+        <label for="membership">Membership</label>
+        <input type="radio" name="membership" value="simple" id="membership" checked> Simple
+        <input type="radio" name="membership" value="advanced" id="membership"> Advanced
+        <input type="radio" name="membership" value="expert" id="membership"> Expert
+      </div>
+      <div>
+        <label for="vehicle">Vechile</label>
+        <input type="checkbox" name="vehicle" value="Car" id="vehicle" checked> Simple
+        <input type="checkbox" name="vehicle" value="Bike" id="vehicle"> Advanced
+        <input type="checkbox" name="vehicle" value="Boat" id="vehicle"> Expert
+      </div>
+
+    </form>
+  </body>
+</html>
